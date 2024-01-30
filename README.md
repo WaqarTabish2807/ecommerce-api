@@ -45,9 +45,33 @@ Before you begin, ensure you have the following installed:
 
 Start the server:
 
-    npm start
+    node server.js
 
 The server will be running at http://localhost:5000.
 
+# Interacting with the API
 
+- **Create a new product:** `POST http://localhost:3000/products`
+  - Include product details in the request body.
+
+- **Retrieve all products:** `GET http://localhost:3000/products`
+
+- **Search for products:** `GET http://localhost:3000/products/search?searchTerm=your-search-term`
+
+For other endpoints, refer to the API documentation.
+
+# Test Driven Development
+
+This project follows a test-driven development approach. Ensure you have a testing framework set up (e.g., Jest) and run tests using:
+
+      npm test
+
+# API Documentation
+
+The API documentation for this project is available in the following formats:
+
+- **Postman Collection:** [postman_collection.json](./postman_collection.json)
+- **OpenAPI (Swagger) Specification:** [swagger.yaml](./swagger.yaml)
+
+Please refer to these files for detailed information on the API endpoints, request formats, and response structures.
 
