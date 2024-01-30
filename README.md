@@ -51,12 +51,12 @@ The server will be running at http://localhost:5000.
 
 # Interacting with the API
 
-- **Create a new product:** `POST http://localhost:3000/products`
+- **Create a new product:** `POST http://localhost:5000/product`
   - Include product details in the request body.
 
-- **Retrieve all products:** `GET http://localhost:3000/products`
+- **Retrieve all products:** `GET http://localhost:5000/product`
 
-- **Search for products:** `GET http://localhost:3000/products/search?searchTerm=your-search-term`
+- **Search for products:** `GET http://localhost:5000/product/search?searchTerm=your-search-term`
 
 For other endpoints, refer to the API documentation.
 
@@ -74,4 +74,66 @@ The API documentation for this project is available in the following formats:
 - **OpenAPI (Swagger) Specification:** [swagger.yaml](./swagger.yaml)
 
 Please refer to these files for detailed information on the API endpoints, request formats, and response structures.
+
+# Assumptions
+
+In the development of this project, certain assumptions have been made:
+
+1. **Products can have multiple variants:**
+   - A product may have different variations known as variants.
+   - Each variant can have distinct attributes such as name, SKU (Stock Keeping Unit), additional cost compared to the base product, and stock count.
+
+# Contributing
+
+Thank you for considering contributing to our project! Please follow these guidelines to ensure a smooth collaboration:
+
+## Code of Conduct
+
+Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to foster an inclusive and respectful community.
+
+## How to Contribute
+
+1. **Fork the repository and create your branch:**
+   ```bash
+   git checkout -b feature/your-feature
+
+2. **Commit your changes:**
+
+   ```bash
+   git commit -am 'Add your feature or fix'
+
+3. **Push to your branch:**
+
+         git push origin feature/your-feature
+
+4. **Create a pull request against the main branch.**
+
+# Coding Standards
+
+Follow the established coding style and guidelines for this project. Refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for details.
+
+# Testing
+
+Ensure that your changes pass all tests. If new features are added, include relevant tests.
+
+# Documentation
+
+Update documentation for any changes or new features. This includes inline comments and external documentation files.
+
+# Issues and Bug Reports
+
+Report any issues or bugs through the GitHub Issue Tracker.
+
+# Feature Requests
+
+If you have a feature request, feel free to open an issue to discuss and provide details.
+
+# Review
+
+Expect code reviews on your pull requests. Be open to feedback and make necessary changes.
+
+# License
+
+By contributing to this project, you agree that your contributions will be licensed under the MIT License.
+
 
