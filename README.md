@@ -71,7 +71,6 @@ This project follows a test-driven development approach. Ensure you have a testi
 The API documentation for this project is available in the following formats:
 
 - **Postman Collection:** [postman_collection.json](./postman_collection.json)
-- **OpenAPI (Swagger) Specification:** [swagger.yaml](./swagger.yaml)
 
 Please refer to these files for detailed information on the API endpoints, request formats, and response structures.
 
