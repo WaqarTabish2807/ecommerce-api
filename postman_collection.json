@@ -1,0 +1,21 @@
+// Adding a Product
+
+{
+    "name": "Nike",
+    "description": "Jeans",
+    "price": 200
+}
+
+// Getting a Product 
+
+http://localhost:5000/product/65b8045d337d82e9dd7c407a 
+
+// Adding a Variant
+
+{
+    "name": "H&M",
+    "sku": "ABC456",
+    "additional_cost": 10.00,
+    "stock_count": 200,
+    "product_id": "65b8045d337d82e9dd7c407a"
+}
