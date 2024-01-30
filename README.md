@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-api.git
+   https://github.com/WaqarTabish2807/ecommerce-api.git
 
 2. **Change into the project directory:**
 
